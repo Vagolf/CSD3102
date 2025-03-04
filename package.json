@@ -1,0 +1,33 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./web/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
+{
+    "name": "web",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "build": "npx tailwindcss -i ./src/input.css -o ./web/style.css --watch",
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "tailwindcss": "^3.4.13",
+        "jest": "^29.0.0",
+        "jest-environment-jsdom": "^29.0.0"
+    }
+}

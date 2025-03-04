@@ -1,0 +1,76 @@
+.iconBB {
+  width: 50px; 
+  height: 50px;
+  margin-right: auto;
+}
+
+body {
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  background-image: url('image/aa.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  margin-top: 100px;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  margin-top: 50px;
+}
+
+.navbar {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.navbar-brand {
+  margin-left: 20px;
+}
+
+.bg-body-tertiary {
+  background-color: #f8f9fa;
+}
+
+/* ปรับตำแหน่งปุ่มให้อยู่ที่มุมขวาล่างและให้ลอย */
+.logout-btn {
+
+  position: fixed;
+  bottom: 20px; /* ระยะห่างจากด้านล่าง */
+  right: 20px;  /* ระยะห่างจากด้านขวา */
+  padding: 12px 20px;
+  background-color: #f4a261;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px; /* ทำให้ปุ่มเป็นวงกลม */
+  cursor: pointer;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* เพิ่มเงาให้ดูเหมือนลอย */
+  transition: box-shadow 0.3s ease; /* เพิ่มการเปลี่ยนแปลงเงา */
+}
+
+/* เมื่อ hover ปุ่ม จะเปลี่ยนเงาให้ใหญ่ขึ้น */
+.logout-btn:hover {
+  background-color: #e07b43; /* สีเมื่อ hover */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4); /* ทำให้เงามีขนาดใหญ่ขึ้น */
+}
+
